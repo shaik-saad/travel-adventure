@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0rem;
+  background-color: #e5e7eb;
+}
+
+.App {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+  padding: 0rem 0.5rem;
+}
+
+.btn-genre {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  color: white;
+  background-color: #6b7280;
+}
+
+#non-bullet-list {
+  list-style: none;
+  padding: 0rem;
+}
+
+.list-item {
+  padding: 1rem 0rem;
+  border: 1px solid #6b7280;
+  border-radius: 0.3rem;
+  margin: 0.5rem 0rem;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.list-item h4 {
+  margin: 0rem;
+}
+
+.small-rating {
+  padding: 0.3rem 0.5rem;
+  background-color: #247c2a;
+  color: white;
+  border-radius: 0.5rem;
+  float: right;
+}
+
+.small-description {
+  margin-top: 0.3rem;
+}
