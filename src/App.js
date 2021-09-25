@@ -121,7 +121,7 @@ export default function App() {
         Trippy Adventure
       </h1>
       <p>
-        Places to travel in my beautiful country India. Select a genre to get
+        Places to travel in my beautiful country India. Select a category to get
         started.
       </p>
       <button className="btn-genre" onClick={() => hillButtonClickHandler()}>
@@ -157,6 +157,37 @@ export default function App() {
           );
         })}
       </ul>
+      <footer>
+        <p>If you loved❤️ this app, make sure to follow me on</p>
+        <ul id="non-bullet-list">
+          <li className="footer-item list-item-inline">
+            <a
+              className="social-link"
+              href="https://www.linkedin.com/in/shaik-saad"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li className="footer-item list-item-inline">
+            <a
+              className="social-link"
+              href="https://twitter.com/shaiksaadullah"
+            >
+              <i className="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li className="footer-item list-item-inline">
+            <a className="social-link" href="https://github.com/shaik-saad">
+              <i className="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+        <br />
+        <small id="copy-right">
+          © | 2021 |{" "}
+          <a href="https://shaiksaadullah.netlify.app/">saad.codes</a>
+        </small>
+      </footer>
     </div>
   );
 }
